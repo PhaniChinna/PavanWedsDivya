@@ -1,0 +1,16 @@
+.JourneyLaptop {
+  margin-left: 330px;
+  margin-top: -760px;
+}
+
+@media screen and (max-width: 767px) {
+  .JourneyLaptop {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .JourneyMobile {
+    display: none;
+  }
+}

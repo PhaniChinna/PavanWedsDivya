@@ -1,0 +1,34 @@
+.WeddingDataLap {
+  margin-left: 310px;
+  margin-top: -770px;
+}
+
+@media screen and (max-width: 767px) {
+  .WeddingDataLap {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .MobileData {
+    display: none;
+  }
+}
+
+.weddingImagesCont {
+  width: 100%;
+  height: 200vh;
+}
+
+.MobileWeddingInvitation {
+  margin-top: 20px;
+  height: 100%;
+  border-radius: 20px;
+  width: 100%;
+}
+
+@media screen and (min-width: 776px) {
+  .MobileWeddingInvitation {
+    height: 100%;
+  }
+}

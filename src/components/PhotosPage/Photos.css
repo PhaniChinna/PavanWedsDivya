@@ -1,0 +1,53 @@
+.LaptopData {
+  margin-left: 380px;
+  margin-top: -790px;
+}
+
+@media screen and (max-width: 767px) {
+  .LaptopData {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .MobileContainer {
+    display: none;
+  }
+}
+
+.LaptopContainer {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.MobileImageContainer {
+  margin-top: 30px;
+}
+
+.EventLogo1 {
+  width: 100%;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.LapLogo1 {
+  width: 250px;
+  height: 250px;
+  margin-left: -50px;
+  margin-right: 60px;
+  border-radius: 30px;
+}
+
+.LapLogo2 {
+  width: 250px;
+  height: 250px;
+  margin-left: -50px;
+  margin-right: 60px;
+  border-radius: 30px;
+}
+
+.UnOrderListCard {
+  display: flex;
+  flex-wrap: wrap;
+}

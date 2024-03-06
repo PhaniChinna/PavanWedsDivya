@@ -1,0 +1,141 @@
+.ViewHeadingContainer {
+  background-color: #c1deec;
+  display: flex;
+  flex-direction: column;
+  min-height: 140vh;
+  width: 55vh;
+  border-radius: 10px;
+}
+
+.PavanDivya {
+  width: 220px;
+  height: 220px;
+  border-radius: 200px;
+  margin-top: 20px;
+  margin-left: 35px;
+}
+
+.UnOrderList {
+  list-style-type: none;
+  font-size: 25px;
+  margin-top: 40px;
+  margin-left: 25px;
+}
+
+.PhotosData {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.OurJourney {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.invitation {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+/* li:hover {
+  background-color: #282c34;
+  width: 200px;
+  height: 40px;
+  border-radius: 8px;
+  padding: 5px;
+  color: white;
+  margin-left: -20px;
+  text-align: center;
+} */
+
+.IoPhoto {
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: -3px;
+}
+
+.GiJourney {
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: -3px;
+}
+
+.Invitation {
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: -3px;
+}
+
+@media screen and (max-width: 768px) {
+  .ViewHeadingContainer {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .MobileContainer {
+    display: none;
+  }
+}
+
+.MobileLogoContainer {
+  width: 150px;
+  height: 150px;
+  border-radius: 200px;
+}
+
+.MobileViewContainer {
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+  background-color: #c1deec;
+  min-height: 10vh;
+  padding: 5px;
+}
+
+.UnOrderListCardContainer {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.ListContainerData {
+  display: flex;
+  flex-direction: column;
+}
+
+.ListCardPhotos {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+.ListCardJourney {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+.ListCardInvitation {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+.MdPhotos {
+  margin-right: 5px;
+}
+
+.ListCardJourneyIcon {
+  margin-right: 5px;
+}
+
+.MdOutlineCard {
+  margin-right: 5px;
+}

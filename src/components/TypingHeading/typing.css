@@ -1,0 +1,15 @@
+.StyleText {
+  margin-top: 10px;
+  font-size: 25px;
+  margin-bottom: 18px;
+  color: Red;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media screen and (max-width: 992px) {
+  .StyleText {
+    margin-top: 13px;
+    margin-bottom: 18px;
+    font-size: 25px;
+  }
+}
